@@ -509,4 +509,47 @@ header {
     text-align: center;
 }
 
-.
+.newletter form {
+    max-width: 600px;
+    margin: 1.8rem auto auto auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--text-color);
+    padding: 7px;
+    border-radius: 0.5rem;
+}
+
+.newletter form input {
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    font-size: 1.17rem;
+    
+}
+
+.newletter form .email {
+    width: 100%;
+}
+
+.newletter form input::placeholder {
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.newletter form .s-btn {
+    background: var(--main-color);
+    color: var(--bg-color);
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.newletter form .s-btn:hover {
+    background: var(--text-color);
+    transition: 0.4s ease-in-out;
+}
