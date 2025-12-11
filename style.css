@@ -592,4 +592,28 @@ header {
     background: var(--bg-color);
     transition: background 0.4s ease-in-out; 
 }
-.footer-box  h3
+.footer-box  h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--bg-color);
+    margin-bottom: 1rem;
+}
+
+.footer-box p  {
+   margin-bottom: 8px; 
+}
+.footer-box p span {
+    display: inline-block;
+    width: 50px;
+}
+
+.footer-box a {
+    color: var(--bg-color);
+    margin-bottom: 10px;
+}
+
+.copyright {
+    padding: 3opx;
+    color: var(--bg-color);
+    text-align: center;
+}
